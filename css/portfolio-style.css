@@ -1,0 +1,274 @@
+body {
+
+   font-size: 1rem;
+
+}
+
+/*--------------------------------
+-----------------------
+font-family: 'Gentium Book Basic', serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'PT Serif', serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Josefin Slab', serif;
+/*--------------------------------
+-----------------*/
+
+.hover-style  {
+
+    opacity: 1;
+}
+.hover-style:hover {
+
+    opacity: 0.7;
+    transition: 0.1s;
+}
+
+ .wow { visibility: hidden; }
+
+.logo-style {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 3.1rem;
+  color: #ffffff;
+
+}
+
+.menu-style {
+
+  font-family: 'Nunito', sans-serif;
+  font-size: 2rem;
+
+
+}
+
+.menu-style a:hover {
+
+
+}
+
+
+.social-nav-style {
+  font-size: 1.9rem;
+
+}
+
+
+.about-me-btn {
+
+border-radius: 18px;
+
+}
+
+.portfolio-me-btn {
+
+border-radius: 0px 0px 0px 0px;
+
+}
+
+
+.intro-banner {
+
+/*background-image: url(../img/Desk-one.png);*/
+/*background-image: url(../img/Desktop004.png);*/
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin-bottom: auto;
+margin-top: 1rem;
+padding-bottom: 1rem;
+width: inherit;
+max-width: auto;
+
+
+/*background: #32cd32;
+background: -webkit-linear-gradient(top,#32cd32,#84bd00); Safari 5.1-6
+background: -o-linear-gradient(top,#32cd32,#84bd00); Opera 11.1-12
+background: -moz-linear-gradient(top,#32cd32,#84bd00);
+
+background: linear-gradient(to bottom, #32cd32, #84bd00); Standard
+*/
+}
+
+.about-homepage-style {
+
+}
+.header-homepage-style {
+
+  font-family: 'Josefin Slab', serif !important;
+  margin-top: 7rem;
+  margin-bottom: 1rem;
+  font-size: 2.7rem;
+}
+
+.create-subtitle {
+
+  font-family: 'Josefin Slab', serif;
+  margin-bottom: 3rem;
+
+}
+.scroll-down-icon {
+
+     font-size: 2.3rem;
+     font-family: 'Josefin Slab', serif;
+}
+
+/*  Grid of the front masonary  -------------------------------------------------------------------------------------------------------------------  */
+
+.port-style {
+    width: inherit;
+    height: inherit;
+    margin-bottom: auto;
+    font: none;
+}
+
+.thumbnail-click-style {
+    background-color: transparent;
+
+}
+
+a .thumbnail-click-style {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+
+}
+
+.project-placement-style {
+
+  font-family: 'Josefin Slab', serif;
+  text-decoration: none;
+   margin-top: 25rem;
+
+}
+.portfolio-style-01 {
+background-image: url(../img/bank_macbook_air.jpg);
+ background-size: cover;
+ background-color: transparent;
+ height: 30rem;
+ width: 100%;
+
+}
+.portfolio-style-02 {
+  background-image: url(../img/chair_mobile4krun.jpg);
+  background-size: cover;
+  /*background-image: url(../img/iphone5-4krun.jpg);
+  background-size: cover;*/
+ height: 30rem;
+ width: 100%;
+
+}
+
+/*------------End of  row css------------
+*/
+
+.portfolio-style-03 {
+  background-image: url(../img/harn_paint_hands-16.jpg);
+  background-size: cover;
+  height: 30rem;
+  width: 100%;
+
+}
+
+.portfolio-style-04 {
+
+  background-image: url(../img/WelcomeMock-Hi-Fi004.jpg);
+  background-size: cover;
+  height: 30rem;
+  width: 100%;
+}
+
+/*------------End of  row css------------*/
+
+.portfolio-style-05 {
+  background-image: url(../img/MWE-FL-BLUE-Perspective-3.jpg);
+  background-size: cover;
+  height: 30rem;
+  width: 100%;
+
+}
+
+.portfolio-style-06 {
+  background-image: url(../img/Providers-flat-Final.jpg);
+  background-size: cover;
+  height: 30rem;
+  width: 100%;
+}
+
+/*------------End of  row css------------*/
+
+.portfolio-style-07 {
+  background-image: url(../img/PPstatic1.squarespace.jpg);
+  background-size: cover;
+  height: 30rem;
+  width: 100%;
+
+}
+.portfolio-style-08 {
+  background-image: url(../img/Allison.jpg);
+  background-size: cover;
+  height: 30rem;
+  width: 100%;
+
+}
+
+/*------------End of  row css------------*/
+.portfolio-style-09 {
+  background-image: url(../img/hockey-bro.jpg);
+  background-size: cover;
+  height: 30rem;
+  width: 100%;
+
+}
+
+.portfolio-style-10 {
+  background-image: url(../img/video-thumbnail.png);
+  background-size: cover;
+  height: 30rem;
+  width: 100%;
+
+}
+
+/*------------End of  row css------------*/
+.footer-width-style {
+
+    width: 100%;
+}
+
+.small-profile {
+
+  background-image: url(../img/profile-me-bw.jpg);
+  background-size: cover;
+  height: 45rem;
+  width: 100%;
+  margin-bottom: auto;
+
+}
+
+.my-4 {
+    border-top: 2px solid #ffffff;
+
+}
+.profile-pic-size {
+    width: 350px;
+
+}
+.small-profile-intro {
+
+    height: inherit;
+    margin-top: 5rem;
+
+}
+.title-about-me {
+
+font-family: 'Josefin Slab', serif;
+
+}
+
+.footer-styles {
+
+  padding-top: 6rem;
+  padding-bottom: 1rem;
+  background-color: #343a40 !important;
+  font-size: 2rem;
+}
