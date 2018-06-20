@@ -1,7 +1,7 @@
 body {
 
    font-size: 1rem;
-
+   background-color: #ffffff;
 }
 
 /*--------------------------------
@@ -14,10 +14,27 @@ font-family: 'Josefin Slab', serif;
 /*--------------------------------
 -----------------*/
 
+.navbar-toggler {
+  border: 0px;
+
+}
+
 .hover-style  {
 
     opacity: 1;
 }
+
+#visible_logo {
+
+  z-index: 90000000;
+}
+
+.reveal-links {
+
+  font-size: 2rem;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
 .hover-style:hover {
 
     opacity: 0.7;
@@ -57,6 +74,11 @@ font-family: 'Josefin Slab', serif;
 
 border-radius: 18px;
 
+}
+
+.nav-bg-style {
+
+  background-color: #343a40 !Important;
 }
 
 .portfolio-me-btn {
@@ -237,7 +259,7 @@ background-image: url(../img/bank_macbook_air.jpg);
 
 .small-profile {
 
-  background-image: url(../img/profile-me-bw.jpg);
+  background-image: url(../img/profile_pic_2018.jpg);
   background-size: cover;
   height: 45rem;
   width: 100%;
@@ -250,7 +272,7 @@ background-image: url(../img/bank_macbook_air.jpg);
 
 }
 .profile-pic-size {
-    width: 350px;
+    width: 450px;
 
 }
 .small-profile-intro {
