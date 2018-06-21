@@ -1,7 +1,7 @@
 body {
-
-
-}
+  font-size: 1rem;
+  background-color: #ffffff;
+  min-height: 1200px; }
 
 /*--------------------------------
 -----------------------
@@ -12,145 +12,183 @@ font-family: 'Libre Baskerville', serif;
 font-family: 'Josefin Slab', serif;
 /*--------------------------------
 -----------------*/
+.navbar-toggler {
+  border: 0px; }
 
-.wow { visibility: hidden; }
+.hover-style {
+  opacity: 1; }
 
-.project-header {
+#visible_logo {
+  z-index: 90000000; }
 
+.reveal-links {
+  font-size: 2rem;
+  font-family: 'Josefin Sans', sans-serif; }
 
-}
+.hover-style:hover {
+  opacity: 0.7;
+  transition: 0.1s; }
 
-.project-sub-header {
+.wow {
+  visibility: hidden; }
 
+.logo-style {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 3.1rem;
+  color: #ffffff; }
+
+.menu-style {
+  font-family: 'Nunito', sans-serif;
+  font-size: 2rem; }
+
+.social-nav-style {
+  font-size: 1.9rem; }
+
+.about-me-btn {
+  border-radius: 18px; }
+
+.nav-bg-style {
+  background-color: #343a40 !Important; }
+
+.portfolio-me-btn {
+  border-radius: 0px 0px 0px 0px; }
+
+.intro-banner {
+  /*background-image: url(../img/Desk-one.png);*/
+  /*background-image: url(../img/Desktop004.png);*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: auto;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  width: inherit;
+  max-width: auto; }
+
+.header-homepage-style {
+  font-family: 'Josefin Slab', serif !important;
+  margin-top: 7rem;
+  margin-bottom: 1rem;
+  font-size: 2.7rem; }
+
+.create-subtitle {
   font-family: 'Josefin Slab', serif;
+  margin-bottom: 3rem; }
 
+.scroll-down-icon {
+  font-size: 2.3rem;
+  font-family: 'Josefin Slab', serif; }
 
-
-}
-
-
-.project-description {
-
-  margin-top: 5rem;
-  margin-bottom: 6rem;
-}
-
-.project-body {
-
-
-}
-
-.project-icon {
-      font-size: 6rem;
-      margin-top: 7rem;
-
-}
-
-.project-piece {
-
-      margin-bottom: 5rem;
-      margin-left: auto;
-      margin-right: auto;
-      min-width: 100%;
-      z-index: -3;
-      background-size: cover;
-
-    }
-
-img {
-
-    display: inline-block;
-    vertical-align: middle;
-    width: 100%;
-    height: auto;
-
-
-    }
-
-.back-option {
-    font-family: 'Nunito', sans-serif;
-    margin-bottom: 6rem;
-    font-size: 2rem;
-
-}
-
-
-
-/* ----------- about page css ---------  --------------------------------------------------------------------------------*/
-
-.header-about-style {
-
-  font-family: 'Josefin Slab', serif;
-  margin-top: 8rem;
-  margin-bottom: 7rem;
-  font-size: 3rem;
-
-}
-
-.about-picture {
-
-   margin-top: -6rem;
-
-}
-
-
-.about-arthur {
-
-  margin-top: 3rem;
-  font-family: 'Josefin Slab', serif;
-    z-index:
-
-}
-
-
-
-.about-body-text {
-
-font-family: 'Nunito', sans-serif;
-
-}
-
-
-.about-banner {
-
+/*  Grid of the front masonary  -------------------------------------------------------------------------------------------------------------------  */
+.port-style {
+  width: inherit;
   height: inherit;
   margin-bottom: auto;
+  font: none; }
 
-  background: #56ab2f;  /* fallback for old browsers */
- background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
- background: linear-gradient(to right, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.thumbnail-click-style {
+  background-color: transparent; }
 
+a .thumbnail-click-style {
+  height: 100%;
+  width: 100%;
+  cursor: pointer; }
 
+.project-placement-style {
+  font-family: 'Josefin Slab', serif;
+  text-decoration: none;
+  margin-top: 25rem; }
 
-  }
+.portfolio-style-01 {
+  background-image: url(../img/bank_macbook_air.jpg);
+  background-size: cover;
+  background-color: transparent;
+  height: 30rem;
+  width: 100%; }
 
-.profile_banner_style {
+.portfolio-style-02 {
+  background-image: url(../img/chair_mobile4krun.jpg);
+  background-size: cover;
+  /*background-image: url(../img/iphone5-4krun.jpg);
+  background-size: cover;*/
+  height: 30rem;
+  width: 100%; }
+
+/*------------End of  row css------------
+*/
+.portfolio-style-03 {
+  background-image: url(../img/harn_paint_hands-16.jpg);
+  background-size: cover;
+  height: 30rem;
+  width: 100%; }
+
+.portfolio-style-04 {
+  background-image: url(../img/WelcomeMock-Hi-Fi004.jpg);
+  background-size: cover;
+  height: 30rem;
+  width: 100%; }
+
+/*------------End of  row css------------*/
+.portfolio-style-05 {
+  background-image: url(../img/MWE-FL-BLUE-Perspective-3.jpg);
+  background-size: cover;
+  height: 30rem;
+  width: 100%; }
+
+.portfolio-style-06 {
+  background-image: url(../img/Providers-flat-Final.jpg);
+  background-size: cover;
+  height: 30rem;
+  width: 100%; }
+
+/*------------End of  row css------------*/
+.portfolio-style-07 {
+  background-image: url(../img/PPstatic1.squarespace.jpg);
+  background-size: cover;
+  height: 30rem;
+  width: 100%; }
+
+.portfolio-style-08 {
+  background-image: url(../img/Allison.jpg);
+  background-size: cover;
+  height: 30rem;
+  width: 100%; }
+
+/*------------End of  row css------------*/
+.portfolio-style-09 {
+  background-image: url(../img/hockey-bro.jpg);
+  background-size: cover;
+  height: 30rem;
+  width: 100%; }
+
+.portfolio-style-10 {
+  background-image: url(../img/video-thumbnail.png);
+  background-size: cover;
+  height: 30rem;
+  width: 100%; }
+
+/*------------End of  row css------------*/
+.footer-width-style {
+  width: 100%; }
+
+.small-profile {
   background-image: url(../img/profile_pic_2018.jpg);
   background-size: cover;
+  height: 45rem;
   width: 100%;
-  height: 40rem;
-}
+  margin-bottom: auto; }
 
-.about-bg-style {
+.my-4 {
+  border-top: 2px solid #ffffff; }
 
-     height: inherit;
-    margin-bottom: auto;
+.title-about-me {
+  font-family: 'Josefin Slab', serif; }
 
+.footer-styles {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  background-color: #d2d2d2 !important;
+  font-size: 2rem; }
 
-}
-
-  .profile-video {
-    margin-top: 6rem;
-    margin-bottom: 6rem;
-
-}
-
-
-.profile-img {
-
-    width: 205px;
-    height: 205px;
-    z-index: 9000;
-    border-bottom: 8px solid #333;
-    z-index: 40000;
-}
+/*# sourceMappingURL=project.css.map */
