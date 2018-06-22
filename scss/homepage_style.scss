@@ -37,20 +37,34 @@
 
 .Intro_heart_shape {
 
-  margin-top: auto;
-  margin-bottom: auto;
+
   background-color: #ffffff !important;
+  height: inherit;
+
+  .jumbotron {
+
+    background-color: #ffffff !important;
+    height: inherit;
+
+    .about_intro_panther {
+
+      margin-top: 4rem;
+    }
+
+    .panther_about_intro_style {
+
+      margin-top: 7rem;
+      margin-bottom: 7rem;
+    }
+  }
 
   .profile-img {
-    width: 305px;
-    height: 305px;
+
+    width: 25rem;
     z-index: 9000;
     border-bottom: 8px solid #333;
     z-index: 40000;
-}
-}
 
-.jumbotron-fluid {
+ }
 
-  background-color: #ffffff !important;
 }
