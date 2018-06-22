@@ -49,8 +49,8 @@ a {
 }
 
 .shadow_style {
-   box-shadow: 3px 3px  #F2F2F2;
-   background-color: rgba(255,255,255,0.8);
+   box-shadow: 1px 2px  #d2d2d2;
+   background-color: #ffffff;
 }
 
 .cd-auto-hide-header::after {
