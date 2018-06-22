@@ -1,10 +1,33 @@
 .intro_panther {
   background-color: #ffffff !important;
   height: inherit;
-  padding-top: 5rem; }
+  padding-top: 5rem;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
   .intro_panther .intro_parent_style {
     padding-top: 15rem;
     padding-bottom: 15rem; }
+
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto; }
+  .parallax .parallax__layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; }
+  .parallax .parallax__layer--base {
+    transform: translateZ(0); }
+  .parallax .parallax__layer--back {
+    transform: translateZ(-1px); }
+
+.P_height {
+  height: inherit; }
 
 .portfolio_panther {
   background-color: #32CD32;
