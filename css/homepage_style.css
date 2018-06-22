@@ -1,10 +1,33 @@
 .intro_panther {
   background-color: #ffffff !important;
   height: inherit;
-  padding-top: 5rem; }
+  padding-top: 5rem;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
   .intro_panther .intro_parent_style {
     padding-top: 15rem;
     padding-bottom: 15rem; }
+
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto; }
+  .parallax .parallax__layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; }
+  .parallax .parallax__layer--base {
+    transform: translateZ(0); }
+  .parallax .parallax__layer--back {
+    transform: translateZ(-1px); }
+
+.P_height {
+  height: inherit; }
 
 .portfolio_panther {
   background-color: #32CD32;
@@ -18,10 +41,20 @@
     height: 20rem; }
 
 .Intro_heart_shape {
-  margin-top: auto;
-  margin-bottom: auto; }
-
-.jumbotron-fluid {
-  background-color: #ffffff !important; }
+  background-color: #ffffff !important;
+  height: inherit; }
+  .Intro_heart_shape .jumbotron {
+    background-color: #ffffff !important;
+    height: inherit; }
+    .Intro_heart_shape .jumbotron .about_intro_panther {
+      margin-top: 4rem; }
+    .Intro_heart_shape .jumbotron .panther_about_intro_style {
+      margin-top: 7rem;
+      margin-bottom: 7rem; }
+  .Intro_heart_shape .profile-img {
+    width: 25rem;
+    z-index: 9000;
+    border-bottom: 8px solid #333;
+    z-index: 40000; }
 
 /*# sourceMappingURL=homepage_style.css.map */

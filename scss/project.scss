@@ -19,7 +19,7 @@ font-family: 'Josefin Slab', serif;
 
 .navbar-toggler {
 
-  border: 0px;
+  border:0px;
 
 }
 
@@ -161,6 +161,16 @@ a .thumbnail-click-style {
 }
 .portfolio-style-01 {
 background-image: url(../img/bank_macbook_air.jpg);
+ background-size: cover;
+ background-color: transparent;
+ height: 30rem;
+ width: 100%;
+
+}
+
+
+.portfolio-style-fis {
+background-image: url(../img/fis_forum.jpg);
  background-size: cover;
  background-color: transparent;
  height: 30rem;
