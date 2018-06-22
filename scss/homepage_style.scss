@@ -39,6 +39,15 @@
 
   margin-top: auto;
   margin-bottom: auto;
+  background-color: #ffffff !important;
+
+  .profile-img {
+    width: 305px;
+    height: 305px;
+    z-index: 9000;
+    border-bottom: 8px solid #333;
+    z-index: 40000;
+}
 }
 
 .jumbotron-fluid {
