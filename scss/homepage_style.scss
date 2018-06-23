@@ -58,12 +58,21 @@
     margin-top: 4rem;
 
   }
-
   .portfolio_paw_row_container {
     padding-top: 12rem;
     padding-bottom: 12rem;
-  }
 
+    .interactive_hover_style {
+      background-color: #ffffff;
+      opacity: 1;
+
+    }
+    .interactive_hover_style:hover {
+      background-color: #ffffff;
+      opacity: 0.9;
+
+    }
+  }
   .portfolio_paws {
     height: 20rem;
 
@@ -88,7 +97,7 @@
     .panther_about_intro_style {
 
       margin-top: 7rem;
-      margin-bottom: 1rem;
+      margin-bottom: 7rem;
 
       .about_cta_style {
         border-radius: 0px;

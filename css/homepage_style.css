@@ -37,6 +37,12 @@
   .portfolio_panther .portfolio_paw_row_container {
     padding-top: 12rem;
     padding-bottom: 12rem; }
+    .portfolio_panther .portfolio_paw_row_container .interactive_hover_style {
+      background-color: #ffffff;
+      opacity: 1; }
+    .portfolio_panther .portfolio_paw_row_container .interactive_hover_style:hover {
+      background-color: #ffffff;
+      opacity: 0.9; }
   .portfolio_panther .portfolio_paws {
     height: 20rem; }
 
@@ -50,7 +56,7 @@
       margin-top: 4rem; }
     .Intro_heart_shape .jumbotron .panther_about_intro_style {
       margin-top: 7rem;
-      margin-bottom: 1rem; }
+      margin-bottom: 7rem; }
       .Intro_heart_shape .jumbotron .panther_about_intro_style .about_cta_style {
         border-radius: 0px;
         margin-top: 1rem; }
