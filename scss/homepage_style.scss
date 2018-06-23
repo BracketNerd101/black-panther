@@ -1,14 +1,12 @@
-
-
 .intro_panther {
 
   background-color: #ffffff !important;
   height: inherit;
   padding-top: 5rem;
   background-attachment: fixed;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   .intro_parent_style {
 
@@ -19,15 +17,11 @@
   .intro_space_style {
 
   }
-
 }
-
 
 .parallax {
   perspective: 1px;
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
+  height: 80vh;
 
   .parallax__layer {
   position: absolute;
@@ -35,6 +29,7 @@
   right: 0;
   bottom: 0;
   left: 0;
+
 }
 
 .parallax__layer--base {
@@ -58,6 +53,12 @@
   margin-bottom: auto;
   margin-top: auto;
 
+  .intro_space_style {
+
+    margin-top: 4rem;
+
+  }
+
   .portfolio_paw_row_container {
     padding-top: 12rem;
     padding-bottom: 12rem;
@@ -65,11 +66,11 @@
 
   .portfolio_paws {
     height: 20rem;
+
   }
 }
 
 .Intro_heart_shape {
-
 
   background-color: #ffffff !important;
   height: inherit;
@@ -87,17 +88,27 @@
     .panther_about_intro_style {
 
       margin-top: 7rem;
-      margin-bottom: 7rem;
+      margin-bottom: 1rem;
+
+      .about_cta_style {
+        border-radius: 0px;
+        margin-top: 1rem;
+
+        .about_cta_style_btn {
+
+          border-radius: 0px;
+        }
+      }
     }
   }
 
   .profile-img {
 
-    width: 25rem;
+    width: 20rem;
     z-index: 9000;
     border-bottom: 8px solid #333;
     z-index: 40000;
 
- }
 
+ }
 }

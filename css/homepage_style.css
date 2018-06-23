@@ -12,9 +12,7 @@
 
 .parallax {
   perspective: 1px;
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto; }
+  height: 80vh; }
   .parallax .parallax__layer {
     position: absolute;
     top: 0;
@@ -34,6 +32,8 @@
   height: inherit;
   margin-bottom: auto;
   margin-top: auto; }
+  .portfolio_panther .intro_space_style {
+    margin-top: 4rem; }
   .portfolio_panther .portfolio_paw_row_container {
     padding-top: 12rem;
     padding-bottom: 12rem; }
@@ -50,9 +50,14 @@
       margin-top: 4rem; }
     .Intro_heart_shape .jumbotron .panther_about_intro_style {
       margin-top: 7rem;
-      margin-bottom: 7rem; }
+      margin-bottom: 1rem; }
+      .Intro_heart_shape .jumbotron .panther_about_intro_style .about_cta_style {
+        border-radius: 0px;
+        margin-top: 1rem; }
+        .Intro_heart_shape .jumbotron .panther_about_intro_style .about_cta_style .about_cta_style_btn {
+          border-radius: 0px; }
   .Intro_heart_shape .profile-img {
-    width: 25rem;
+    width: 20rem;
     z-index: 9000;
     border-bottom: 8px solid #333;
     z-index: 40000; }

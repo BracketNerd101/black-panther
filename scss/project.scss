@@ -1,5 +1,3 @@
-
-
 body {
 
    font-size: 1rem;
@@ -35,8 +33,9 @@ font-family: 'Josefin Slab', serif;
 
 .reveal-links {
 
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-family: 'Josefin Sans', sans-serif;
+  margin-top: 0.3rem;
 }
 
 .hover-style:hover {
@@ -49,7 +48,7 @@ font-family: 'Josefin Slab', serif;
 
 .logo-style {
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 3.1rem;
+  font-size: 2.1rem;
   color: #ffffff;
 
 }
@@ -57,7 +56,7 @@ font-family: 'Josefin Slab', serif;
 .menu-style {
 
   font-family: 'Nunito', sans-serif;
-  font-size: 2rem;
+  font-size: 1rem;
 
 
 }
@@ -108,9 +107,6 @@ max-width: auto;
 
 }
 
-.about-homepage-style {
-
-}
 .header-homepage-style {
 
   font-family: 'Josefin Slab', serif !important;
@@ -292,5 +288,5 @@ font-family: 'Josefin Slab', serif;
   padding-top: 3rem;
   padding-bottom: 1rem;
   background-color: #d2d2d2 !important;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
 }
