@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(243, 111, 33); }
+
+.folio_intro_style {
+  height: inherit;
+  background-color: transparent;
+  margin-top: 8rem; }
+  .folio_intro_style .folio_proj_margin {
+    margin-top: 3rem; }
+  .folio_intro_style .jumbotron {
+    background-color: transparent;
+    color: #ffffff; }
+    .folio_intro_style .jumbotron .title_proj_style {
+      text-align: left;
+      margin-top: 4rem;
+      padding-left: 2rem; }
+  .folio_intro_style .folio_project_intro {
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    padding-bottom: 6rem; }
+
+.folio_section_highlight {
+  margin-top: 3rem;
+  width: 100%; }
+  .folio_section_highlight img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100vw;
+    height: auto; }
+  .folio_section_highlight .project-paws-piece-mb {
+    background-size: cover;
+    width: 100%;
+    margin-bottom: 4rem !important; }
