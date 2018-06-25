@@ -14,43 +14,24 @@ body {
       padding-left: 2rem; }
   .folio_intro_style .folio_project_intro {
     margin-bottom: 5rem;
-    margin-top: 5rem; }
+    margin-top: 5rem;
+    padding-bottom: 6rem; }
 
 .folio_section_highlight {
   margin-top: 3rem;
-  width: inherit; }
-  .folio_section_highlight .project-piece {
+  width: inherit;
+  width: 100vw; }
+  .folio_section_highlight .project-paws-piece-mb-01 {
+    background-image: url(../img/%20MWE%20opt%20macbook-air-at-coffee.jpg) no-repeat center center fixed;
     background-size: cover;
-    margin-bottom: 3rem;
     height: 40rem;
-    width: auto; }
-
-.portfolio-style-02 {
-  height: 30rem;
-  width: 100%; }
-
-.portfolio-style-02 {
-  background-image: url(../img/chair_mobile4krun.jpg);
-  background-size: cover;
-  /*background-image: url(../img/iphone5-4krun.jpg);
-  background-size: cover;*/
-  height: 30rem;
-  width: 100%; }
-
-.portfolio-style-02 {
-  background-image: url(../img/chair_mobile4krun.jpg);
-  background-size: cover;
-  /*background-image: url(../img/iphone5-4krun.jpg);
-  background-size: cover;*/
-  height: 30rem;
-  width: 100%; }
-
-.portfolio-style-02 {
-  background-image: url(../img/chair_mobile4krun.jpg);
-  background-size: cover;
-  /*background-image: url(../img/iphone5-4krun.jpg);
-  background-size: cover;*/
-  height: 30rem;
-  width: 100%; }
+    width: auto;
+    margin-bottom: 4rem; }
+  .folio_section_highlight .project-paws-piece-mb-02 {
+    background-image: url(../img/MWE-FL-BLUE-Perspective-3.jpg);
+    background-size: cover;
+    height: 40rem;
+    width: auto;
+    margin-bottom: 4rem; }
 
 /*# sourceMappingURL=folio_style.css.map */
