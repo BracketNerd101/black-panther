@@ -1,7 +1,6 @@
 
-$florida-blue-bg: #1477D7 ;
+$florida_blue_bg: #1477D7 ;
 $fis-bg: #ffffff ;
-$florida-blue-bg: #ffffff ;
 $harn-bg: #ffffff ;
 $run-bg: #ffffff ;
 $world-bank-bg: #ffffff ;
@@ -12,7 +11,7 @@ $run-bg: #ffffff ;
 
 body {
 
-  background-color: #1477D7 ;
+  background-color: $florida_blue_bg ;
 }
 
 .folio_intro_style {
@@ -20,10 +19,16 @@ body {
   background-color: transparent;
   margin-top: 8rem;
 
+  .folio_proj_margin {
+
+    margin-top: 3rem;
+  }
+
   .jumbotron {
 
     background-color: transparent;
     color: #ffffff;
+
 
     .title_proj_style {
       text-align: left;
@@ -41,56 +46,24 @@ body {
  }
 }
 
-// .project-paws-piece-mb-01 {
-//   background-image: url(../img/%20MWE%20opt%20macbook-air-at-coffee.jpg);
-//   background-size: cover;
-//   height: 40rem;
-//   width: 100vw;
-//   margin-bottom: 4rem;
-//
-//   .project-paws-piece-mb-02 {
-//     background-image: url(../img/MWE-FL-BLUE-Perspective-3.jpg);
-//     background-size: cover;
-//     height: 40rem;
-//     width: 100vw;
-//     margin-bottom: 4rem;
-//   }
-//
-//   .project-paws-piece-mb-03 {
-//     background-image: url(../img/MWE-ipad-pro-on-wooden-background.jpg);
-//     background-size: cover;
-//     height: 40rem;
-//     width: 100vw;
-//     margin-bottom: 4rem;
-//   }
-//
-//   .project-paws-piece-mb-04 {
-//     background-image: url(../img/img/MWE-PERSPECTIVE-holding-ipad-pro-on-the-green-background.jpg);
-//     background-size: cover;
-//     height: 40rem;
-//     width: 100vw;
-//     margin-bottom: 4rem;
-// }
 
 .folio_section_highlight {
 
   margin-top: 3rem;
-  width: inherit;
-  width: 100vw;
+  width: 100%;
 
-  .project-paws-piece-mb-01 {
-    background-image: url(../img/%20MWE%20opt%20macbook-air-at-coffee.jpg) no-repeat center center fixed;
-    background-size: cover;
-    height: 40rem;
-    width: auto;
-    margin-bottom: 4rem;
+  img {
 
+    display: inline-block;
+    vertical-align: middle;
+    width: 100vw;
+    height: auto;
   }
-  .project-paws-piece-mb-02 {
-      background-image: url(../img/MWE-FL-BLUE-Perspective-3.jpg);
+
+  .project-paws-piece-mb {
+      // background-image: url(../img/MWE-FL-BLUE-Perspective-3.jpg);
       background-size: cover;
-      height: 40rem;
-      width: auto;
-      margin-bottom: 4rem;
+      width: 100%;
+      margin-bottom: 4rem !important;
     }
 }

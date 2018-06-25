@@ -197,6 +197,7 @@ a .thumbnail-click-style {
   padding-top: 3rem;
   padding-bottom: 1rem;
   background-color: #d2d2d2 !important;
-  font-size: 1.1rem; }
+  font-size: 1.1rem;
+  width: 100%; }
 
 /*# sourceMappingURL=project.css.map */

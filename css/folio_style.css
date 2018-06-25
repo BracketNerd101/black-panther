@@ -5,6 +5,8 @@ body {
   height: inherit;
   background-color: transparent;
   margin-top: 8rem; }
+  .folio_intro_style .folio_proj_margin {
+    margin-top: 3rem; }
   .folio_intro_style .jumbotron {
     background-color: transparent;
     color: #ffffff; }
@@ -19,19 +21,15 @@ body {
 
 .folio_section_highlight {
   margin-top: 3rem;
-  width: inherit;
-  width: 100vw; }
-  .folio_section_highlight .project-paws-piece-mb-01 {
-    background-image: url(../img/%20MWE%20opt%20macbook-air-at-coffee.jpg) no-repeat center center fixed;
+  width: 100%; }
+  .folio_section_highlight img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100vw;
+    height: auto; }
+  .folio_section_highlight .project-paws-piece-mb {
     background-size: cover;
-    height: 40rem;
-    width: auto;
-    margin-bottom: 4rem; }
-  .folio_section_highlight .project-paws-piece-mb-02 {
-    background-image: url(../img/MWE-FL-BLUE-Perspective-3.jpg);
-    background-size: cover;
-    height: 40rem;
-    width: auto;
-    margin-bottom: 4rem; }
+    width: 100%;
+    margin-bottom: 4rem !important; }
 
 /*# sourceMappingURL=folio_style.css.map */
