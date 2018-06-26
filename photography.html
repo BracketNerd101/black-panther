@@ -1,246 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="css/hover-effects.min.css">
+      <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+      <link rel="stylesheet" href="css/demo.css">
+      <link rel="stylesheet" href="css/style.css">
+      <!-- hover effect css -->
+      <link rel="stylesheet" href="css/reset.css">
+      <!-- CSS reset -->
+      <!-- <link rel="stylesheet" href="css/style.css"> -->
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="css/off-canvas.css">
+      <link rel="stylesheet" type="text/css" href="css/full-screen-menu.css">
+      <!-- font awesome  -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!--  -->
+      <link rel="stylesheet" type="text/css" href="open-iconic-bootstrap.css">
+      <link rel="stylesheet" type="text/css" href="open-iconic-bootstrap.min.css">
+      <link rel="stylesheet" href="css/ionicons.css">
+      <link rel="stylesheet" href="css/ionicons.min.css">
+      <!-- icon font -->
+      <link rel="stylesheet" type="text/css" href="css/portfolio-style.css">
+      <link rel="stylesheet" type="text/css" href="css/project.css">
+      <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700i" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:400i" rel="stylesheet">
+      <!-- Custom CSS Below  -->
+      <!-- <link rel="stylesheet" type="text/css" href="css/portfolio-style.css"> -->
+      <link rel="stylesheet" type="text/css" href="css/project.css">
+      <link rel="stylesheet" type="text/css" href="css/homepage_style.css">
+      <link rel="stylesheet" type="text/css" href="css/folio_style.css">
+      <link rel="stylesheet" type="text/css" href="css/bank_folio_style.css">
+      <link rel="stylesheet" href="css/animate.css">
+      <!--Google analytics Below  -->
+      <script>
+         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+         })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/hover-effects.min.css">
-    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
-    <link rel="stylesheet" href="css/demo.css">
-    <link rel="stylesheet" href="css/style.css">
-    <!-- hover effect css -->
-    <link rel="stylesheet" href="css/reset.css">
-    <!-- CSS reset -->
-    <!-- <link rel="stylesheet" href="css/style.css"> -->
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/off-canvas.css">
-    <link rel="stylesheet" type="text/css" href="css/full-screen-menu.css">
-    <!-- font awesome  -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!--  -->
-    <link rel="stylesheet" type="text/css" href="open-iconic-bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="css/ionicons.css">
-    <link rel="stylesheet" href="css/ionicons.min.css">
-    <!-- icon font -->
-    <link rel="stylesheet" type="text/css" href="css/portfolio-style.css">
-    <link rel="stylesheet" type="text/css" href="css/project.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <!-- <link rel="stylesheet" type="text/css" href="css/nav-cover.css"> -->
-    <!--  google fonts -->
-    <!--    <link href="https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400i|Nunito:300" rel="stylesheet">-->
-    <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:400i" rel="stylesheet">
-    <!-- Custom CSS Below  -->
-    <link rel="stylesheet" type="text/css" href="css/portfolio-style.css">
-    <link rel="stylesheet" type="text/css" href="css/project.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <!--Google analytics Below  -->
-          <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-            ga('create', 'UA-33022916-1', 'auto');
-            ga('send', 'pageview');
-          </script>
-  </head>
-  <body>
-
-    <div id="myNav" class="overlay bg-info">
-      <a href="javascript:void(0)" class="closebtn close-btn-placement" onclick="closeNav()">&times;</a>
-      <div class="overlay-content">
-        <a href="RESUME_ace.pdf">Résumé</a>
-        <a href="about.html">About</a>
-        <a href="index.html">Portfolio</a>
-        <a href="mailto:arthur.edwards321@gmail.com">Email Me</a>
+         ga('create', 'UA-33022916-1', 'auto');
+         ga('send', 'pageview');
+      </script>
+   </head>
+   <body>
+      <div id="myNav" class="overlay bg-info">
+         <a href="javascript:void(0)" class="closebtn close-btn-placement" onclick="closeNav()">&times;</a>
+         <div class="overlay-content">
+            <!-- <a href="RESUME_ace.pdf" target="_blank">Résumé</a> -->
+            <a class="nav-link text-dark" href="RESUME_ace.pdf" target="_blank" >Résumé</a>
+            <a href="about.html">About</a>
+            <a href="index.html">Portfolio</a>
+            <a href="mailto:arthur.edwards321@gmail.com">Email Me</a>
+         </div>
       </div>
-    </div>
-    <!-- full-menu nav --------------------------------------->
+         <header class="cd-auto-hide-header">
+            <nav class="nav navbar navbar-light justify-content-between shadow_style">
+              <button class="text-success logo-style border border-white" type="button" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span id="visible_logo" class=""><a class="navbar-brand text-success logo-style bg-white border border-success border-white rounded-0" href="index.html">&nbsp;ace&nbsp;  </a></span>
+              </button>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span id="visible_logo" class=""><a class="navbar-brand text-success bg-white border border-success border-white rounded-0" href="index.html"> <h4>menu</h4></i>  </a></span>
+               </button>
+            </nav>
+         </header>
+         <div class="pos-f-t bg-light sticky-top">
+            <div class="collapse" id="navbarToggleExternalContent">
+               <div class="bg-soft-white p-4">
+                 <nav class="nav navbar bg-lgiht navbar-light justify-content-between">
+                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                 <span id="visible_logo" class=""><a class="navbar-brand text-success logo-style bg-soft-white  border-white rounded-0" href="index.html">&nbsp;ace&nbsp;</a></span>
+                 </button>
+                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                 <span id="visible_logo" class=""><a class="navbar-brand text-success bg-soft-white border-white rounded-0" href="index.html"><i class="fa fa-times fa-2x" aria-hidden="true"></i>  </a></span>
+                 </button>
+               </nav>
+               <br>
+                   <div class="row">
+                     <div class="col-lg-12 text-center">
+                       <h5 class="text-dark logo-style">arthur charles edwards</h5>
+                     </div>
+                  <br>
+                  <br>
+                  </div>
+                  <br>
+                  <ul class="nav justify-content-center">
+                    <ul class="nav flex-column justify-content-center text-center">
+                       <li class="nav-item">
+                          <a class="nav-link display-7 reveal-links text-success" href="RESUME_ace.pdf">Résumé</a>
+                       </li>
 
-    <header class="cd-auto-hide-header">
-       <nav class="nav navbar bg-white navbar-light justify-content-between">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span id="visible_logo" class=""><a class="navbar-brand text-success logo-style bg-white border border-success border-white rounded-0" href="index.html">&nbsp;ace&nbsp;  </a></span>
-          </button>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span id="visible_logo" class=""><a class="navbar-brand text-success bg-white border border-success border-white rounded-0" href="index.html"> <i class="fa fa-plus-circle fa-2x" aria-hidden="true"></i>  </a></span>
-          </button>
-       </nav>
-    </header>
-    <div class="pos-f-t bg-light sticky-top">
-       <div class="collapse" id="navbarToggleExternalContent">
-          <div class="bg-soft-white p-4">
-            <nav class="nav navbar bg-lgiht navbar-light justify-content-between">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span id="visible_logo" class=""><a class="navbar-brand text-success logo-style bg-soft-white  border-white rounded-0" href="index.html">&nbsp;ace&nbsp;</a></span>
-            </button>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span id="visible_logo" class=""><a class="navbar-brand text-success bg-soft-white border-white rounded-0" href="index.html"><i class="fa fa-times fa-2x" aria-hidden="true"></i>  </a></span>
-            </button>
-          </nav>
-          <br>
-          <br>
-              <div class="row">
-                <div class="col-lg-12 text-center">
-                  <h3 class="text-dark logo-style">arthur charles edwards</h3>
-                </div>
-             <br>
-             <br>
-             <br>
-             <br>
+                       <li class="nav-item">
+                          <a class="nav-link display-7 reveal-links text-success" href="about.html">About</a>
+                       </li>
+
+                       <li class="nav-item">
+                          <a class="nav-link display-7 reveal-links text-success" href="index.html">Portfolio</a>
+                       </li>
+
+                       <li class="nav-item">
+                          <a class="nav-link display-7 reveal-links text-success" href="mailto:arthur.edwards321@gmail.com">Email Me</a>
+                       </li>
+                    </ul>
+                  </ul>
+                  <br>
+                  <br>
+                  <ul class="nav justify-content-center">
+                     <li class="nav-item">
+                        <a class="nav-link display-7 reveal-links text-uppercase text-dark" href="https://github.com/BracketNerd101"> <i class="icon ion-social-github text-success size-14"></i></a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link display-7 reveal-links text-uppercase text-dark" href="https://www.linkedin.com/in/arthur-edwards-40170919/" target="_blank"> <i class="icon ion-social-linkedin text-success size-14"></i></a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link display-7 reveal-links text-uppercase text-dark" href="https://www.instagram.com/backspace_101/"> <i class="icon ion-social-instagram-outline text-success size-14"></i></a>
+                     </li>
+                  </ul>
+                  <br>
+               </div>
+            </div>
+         </div>
+         <Section class="folio_intro_style">
+           <div class="row jumbotron">
+              <div class="row container col-sm-12 col-md-6 col-lg-6 folio_proj_margin">
+                <div class="col-lg-3 text-dark">Pleasure</div>
+                <div class="col-lg-3"> <hr class="bg-light"></div>
+                <div class="col-lg-3 text-dark"> Photography</div>
+
+              </div><!-- end of row -->
+              <div class="col-sm-12 col-md-6 col-lg-6 folio_proj_margin">
+                  <h5 class="text-justify text-white text-dark">Exploration </h5>
+                  <p class="project-body text-justify text-dark">I enjoy spending my spare time exploring parts of the city on the weekends. Taking photographs allows me to capture the different places I travel and the spontaneous trips through out my travels.
+                  </p>
+              </div><!-- end of section -->
+            </div><!-- end of section -->
+         </Section> <!-- -->
+         <Section class="folio_section_highlight">
+             <div class="container-fluid">
+               <div class="row">
+
+                 <div class="col-sm-12 col-md-12 col-lg-12 project-paws-piece-mb wow slideInUp" data-wow-duration="0.8s" data-wow-offset="20" style="visibility: visible; animation-duration: 0.8s; animation-name: slideInUp;">
+                   <img src="img/BEACH-FAMILY005.jpg" alt="">
+
+                 </div><!-- end of  -->
+                 <div class="col-sm-12 col-md-12 col-lg-12 project-paws-piece-mb wow slideInUp" data-wow-duration="0.8s" data-wow-offset="20" style="visibility: visible; animation-duration: 0.8s; animation-name: slideInUp;">
+                   <img src="img/beach-two.jpg" alt="">
+
+                 </div><!-- end of  -->
+                 <div class="col-sm-12 col-md-12 col-lg-12 project-paws-piece-mb wow slideInUp" data-wow-duration="0.8s" data-wow-offset="20" style="visibility: visible; animation-duration: 0.8s; animation-name: slideInUp;">
+                   <img src="img/beach-3.jpg" alt="">
+
+                 </div><!-- end of  -->
+                 <div class="col-sm-12 col-md-12 col-lg-12 project-paws-piece-mb wow slideInUp" data-wow-duration="0.8s" data-wow-offset="20" style="visibility: visible; animation-duration: 0.8s; animation-name: slideInUp;">
+                   <img src="img/beach-5.jpg" alt="">
+
+                 </div><!-- end of  -->
+                 <div class="col-sm-12 col-md-12 col-lg-12 project-paws-piece-mb wow slideInUp" data-wow-duration="0.8s" data-wow-offset="20" style="visibility: visible; animation-duration: 0.8s; animation-name: slideInUp;">
+                   <img src="img/hockey-fam.jpg" alt="">
+
+                 </div><!-- end of  -->
+
+                 <div class="col-sm-12 col-md-12 col-lg-12 project-paws-piece-mb wow slideInUp" data-wow-duration="0.8s" data-wow-offset="20" style="visibility: visible; animation-duration: 0.8s; animation-name: slideInUp;">
+                   <img src="img/chandler.jpg" alt="">
+
+                 </div><!-- end of  -->
+
+                 <div class="col-sm-12 col-md-12 col-lg-12 project-paws-piece-mb wow slideInUp" data-wow-duration="0.8s" data-wow-offset="20" style="visibility: visible; animation-duration: 0.8s; animation-name: slideInUp;">
+                   <img src="img/book-store.jpg" alt="">
+
+                 </div><!-- end of  -->
+                  </div><!-- end of  -->
+                 </div><!-- end of  -->
              </div>
-             <br>
-             <ul class="nav justify-content-center">
-                <li class="nav-item">
-                   <a class="nav-link display-7 reveal-links text-uppercase text-success" href="RESUME_ace.pdf">Résumé</a>
-                </li>
-                <li class="nav-item">
-                   <a class="nav-link display-7 reveal-links text-uppercase text-success" href="about.html">About</a>
-                </li>
-                <li class="nav-item">
-                   <a class="nav-link display-7 reveal-links text-uppercase text-success" href="index.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                   <a class="nav-link display-7 reveal-links text-uppercase text-success" href="mailto:arthur.edwards321@gmail.com">Email Me</a>
-                </li>
-             </ul>
-             <br>
-             <br>
-             <br>
-             <ul class="nav justify-content-center">
-                <li class="nav-item">
-                   <a class="nav-link display-7 reveal-links text-uppercase text-dark" href="https://github.com/BracketNerd101"> <i class="icon ion-social-github text-success size-14"></i></a>
-                </li>
-                <li class="nav-item">
-                   <a class="nav-link display-7 reveal-links text-uppercase text-dark" href="https://www.linkedin.com/in/arthur-edwards-40170919/"> <i class="icon ion-social-linkedin text-success size-14"></i></a>
-                </li>
-                <li class="nav-item">
-                   <a class="nav-link display-7 reveal-links text-uppercase text-dark" href="https://www.instagram.com/backspace_101/"> <i class="icon ion-social-instagram-outline text-success size-14"></i></a>
-                </li>
-             </ul>
-             <br>
-          </div>
-       </div>
-    </div>
+          </div><!-- end of  -->
+         </Section> <!-- -->
 
-  <div class="jumbotron jumbotron-fluid about-banner">
-      <div class="container">
-        <br><br>
-        <h1 class="display-4 text-light text-center header-about-style">Photography <br> </h1>
-        <div class="col-md-12 col-lg-12 text-center scroll-down-icon">
-        </div>
-      </div> <!--end of container -->
-  </div>  <!-- intro-banner-homepage ---------------------------------------------------------------->
 
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-md-4 col-lg-4 text-center project-icon">
-         <i class="icon ion-camera text-secondary"></i>
-    </div>
-
-    <div class="col-md-6 col-lg-6 project-description">
-      <br>
-      <br>
-      <h3 class="project-sub-header text-secondary"> Exploration </h3>
-      <p class="project-body">I enjoy spending my spare time exploring parts of the city on the weekends. Taking photographs allows me to capture the different places I travel and the spontaneous trips through out my travels.</p>
-    </div>
-  </div> <!-- end of row-->
-</div><!-- end of container fluid ------------------------------------>
-
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-md-12 col-lg-12 project-piece wow slideInUp" data-wow-duration="0.8s" data-wow-delay0"0.5s" data-wow-offset="20">
-      <img src="img/beach-two.jpg" alt="">
-    </div>
-    <div class="col-md-12 col-lg-12 project-piece wow slideInUp" data-wow-duration="0.8s" data-wow-delay0"0.5s" data-wow-offset="20">
-      <img src="img/beach-3.jpg" alt="">
-    </div>
-    <div class="col-md-12 col-lg-12 project-piece wow slideInUp" data-wow-duration="0.8s" data-wow-delay0"0.5s" data-wow-offset="20">
-      <img src="img/beach-5.jpg" alt="">
-    </div>
-    <div class="col-md-12 col-lg-12 project-piece wow slideInUp" data-wow-duration="0.8s" data-wow-delay0"0.5s" data-wow-offset="20">
-      <img src="img/hockey-fam.jpg" alt="">
-    </div>
-    <div class="col-md-12 col-lg-12 project-piece wow slideInUp" data-wow-duration="0.8s" data-wow-delay0"0.5s" data-wow-offset="20">
-      <img src="img/hockey-bro.jpg" alt="">
-    </div>
-    <div class="col-md-12 col-lg-12 project-piece wow slideInUp" data-wow-duration="0.8s" data-wow-delay0"0.5s" data-wow-offset="20">
-      <img src="img/BEACH-FAMILY005.jpg" alt="">
-    </div>
-    <div class="col-md-12 col-lg-12 project-piece wow slideInUp" data-wow-duration="0.8s" data-wow-delay0"0.5s" data-wow-offset="20">
-      <img src="img/chandler.jpg" alt="">
-    </div>
-    <div class="col-md-12 col-lg-12 project-piece wow slideInUp" data-wow-duration="0.8s" data-wow-delay0"0.5s" data-wow-offset="20">
-      <img src="" alt="">
-    </div>
-    <div class="col-md-12 col-lg-12 project-piece wow slideInUp" data-wow-duration="0.8s" data-wow-delay0"0.5s" data-wow-offset="20">
-      <img src="img/book-store.jpg" alt="">
-    </div>
-  </div>
-</div>
-
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-md-12 col-lg-12 text-center back-option">
-      <a class="btn btn-block btn-outline-success portfolio-me-btn" href="index.html" role="button"><br> Back to Portfolio  <i class="icon ion-paintbrush"></i><br><br> </a>
-    </div>
-  </div>
-</div>
-
-<!-- <nav class="navbar navbar-light bg-dark"> -->
-    <div class=" col-md-12 col-lg-12 footer-styles bg-dark">
-      <ul class="nav bg-dark justify-content-center ">
-        <li class="nav-item">
-          <a class="nav-link text-light" href="RESUME_ace.pdf">Résumé</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-light" href="about.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-light" href="mailto:arthur.edwards321@gmail.com">Email Me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-light" href="index.html">Portfolio</a>
-        </li>
-      </ul>
-      <br><br><hr class="my-4">
-      <div class="container-fluid">
-        <div class="row col-sm-12 col-md-12 col-lg-12 text-center">
-          <h4 class="text-light">Copyright 2017 Arthur Charles Edwards</h4>
-        </div>
+      <!-- jumbotron container -------------------------------------------------------->
+      <!-- <nav class="navbar navbar-light bg-dark"> -->
+      <div class="col-md-12 col-lg-12 footer-styles">
+         <ul class="nav justify-content-center">
+            <li class="nav-item">
+               <a class="nav-link text-dark" href="RESUME_ace.pdf" target="_blank">Résumé</a>
+            </li><!-- ------------>
+            <li class="nav-item">
+               <a class="nav-link text-dark" href="https://www.linkedin.com/in/arthur-edwards-40170919/" target="_blank">LinkedIn</a>
+            </li><!-- ------------>
+            <li class="nav-item">
+               <a class="nav-link text-dark" href="about.html">About</a>
+            </li><!-- ------------>
+            <li class="nav-item">
+               <a class="nav-link text-dark" href="mailto:arthur.edwards321@gmail.com">Email Me</a>
+            </li><!-- ------------>
+            <li class="nav-item">
+               <a class="nav-link text-dark" href="index.html">Portfolio</a>
+            </li><!-- ------------>
+         </ul>
+         <br><br>
+         <div class="container-fluid">
+            <div class="row col-sm-12 col-md-12 col-lg-12">
+               <h6 class="text-dark text-center">Copyright 2017 Arthur Charles Edwards</h6>
+            </div>
+         </div>
       </div>
-    </div>
-<!-- </nav> -->
-
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-    <!--  -->
-    <script src="js/wow.min.js"></script>
-    <script>
-       if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
-    </script>
-    <script src="js/main.js"></script> <!-- Resource jQuery -->
-    <script src="js/off-canvas.js"></script>
-    <script src="js/shrink-nav.js"></script>
-    <script src="js/nav-overlay.js"></script>
-    <script src="js/nav-cover.js"></script>
-    <!--  -->
-    <script>
-       new WOW().init();
-    </script>
-    <!--  -->
-    <script src="js/wow.js"></script>
-    <script src="js/wow.min.js"></script>
-  </body>
+      <!-- </nav> -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+      <!--  -->
+      <script src="js/wow.min.js"></script>
+      <script>
+         if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
+      </script>
+      <script src="js/main.js"></script> <!-- Resource jQuery -->
+      <script src="js/off-canvas.js"></script>
+      <script src="js/shrink-nav.js"></script>
+      <script src="js/nav-overlay.js"></script>
+      <script src="js/nav-cover.js"></script>
+      <!--  -->
+      <script>
+         new WOW().init();
+      </script>
+      <!--  -->
+      <script src="js/wow.js"></script>
+      <script src="js/wow.min.js"></script>
+   </body>
 </html>
