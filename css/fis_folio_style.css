@@ -1,5 +1,5 @@
 body {
-  background-color: #1477D7; }
+  background-color: #8dc63f; }
 
 .folio_intro_style {
   height: inherit;
@@ -24,29 +24,6 @@ body {
       padding-left: none;
       padding-right: none; }
 
-.folio_intro_style_harn {
-  height: inherit;
-  background-color: transparent;
-  margin-top: 1rem; }
-  .folio_intro_style_harn .folio_proj_margin {
-    margin-top: 1rem; }
-  .folio_intro_style_harn .jumbotron {
-    background-color: transparent;
-    color: #ffffff; }
-    .folio_intro_style_harn .jumbotron .title_proj_style {
-      text-align: left;
-      margin-top: 4rem;
-      padding-left: 2rem; }
-  .folio_intro_style_harn .folio_project_intro {
-    margin-bottom: 5rem;
-    margin-top: 5rem;
-    padding-bottom: 6rem;
-    padding-right: none;
-    padding-left: none; }
-    .folio_intro_style_harn .folio_project_intro .container-fluid {
-      padding-left: none;
-      padding-right: none; }
-
 .folio_section_highlight {
   margin-top: 3rem;
   width: 100%; }
@@ -59,5 +36,3 @@ body {
     background-size: cover;
     width: 100%;
     margin-bottom: 4rem !important; }
-
-/*# sourceMappingURL=folio_style.css.map */
