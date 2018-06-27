@@ -12,7 +12,7 @@
 
 .parallax {
   perspective: 1px;
-  height: 80vh; }
+  height: 70vh; }
   .parallax .parallax__layer {
     position: absolute;
     top: 0;
@@ -48,7 +48,8 @@
 
 .Intro_heart_shape {
   background-color: #ffffff !important;
-  height: inherit; }
+  height: inherit;
+  margin-top: 4rem; }
   .Intro_heart_shape .jumbotron {
     background-color: #ffffff !important;
     height: inherit; }
