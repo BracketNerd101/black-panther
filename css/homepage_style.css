@@ -74,4 +74,12 @@
     border-bottom: 8px solid #333;
     z-index: 40000; }
 
+.back-option {
+  margin-bottom: 3rem; }
+
+.btn-back-style {
+  color: #ffffff; }
+  .btn-back-style .btn-back-style:hover {
+    color: #333; }
+
 /*# sourceMappingURL=homepage_style.css.map */
