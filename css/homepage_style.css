@@ -9,6 +9,8 @@
   .intro_panther .intro_parent_style {
     padding-top: 15rem;
     padding-bottom: 15rem; }
+  .intro_panther .home_intro_name {
+    font-family: 'Josefin Slab', serif !important; }
 
 .parallax {
   perspective: 1px;
@@ -35,8 +37,6 @@
   .portfolio_panther .intro_space_style {
     margin-top: 4rem;
     font-family: 'Josefin Slab', serif; }
-    .portfolio_panther .intro_space_style .home_intro_name {
-      font-family: 'Josefin Slab', serif !important; }
   .portfolio_panther .portfolio_paw_row_container {
     padding-top: 12rem;
     padding-bottom: 12rem; }
