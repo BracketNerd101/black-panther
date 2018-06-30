@@ -44,6 +44,8 @@
     height: inherit; }
     .Intro_heart_shape .jumbotron .home_intro_name {
       font-family: 'Josefin Slab', serif !important; }
+    .Intro_heart_shape .jumbotron .camera_ready_style {
+      margin-top: 8rem; }
     .Intro_heart_shape .jumbotron .about_intro_panther {
       margin-top: 4rem; }
     .Intro_heart_shape .jumbotron .panther_about_intro_style {
@@ -76,7 +78,7 @@
     background-image: url(../img/photo_arthur.jpg);
     /* Set a specific height */
     min-height: 50vh;
-    height: 50rem;
+    height: 37rem;
     width: 100%;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -93,13 +95,11 @@
     .Intro_heart_shape_about .jumbotron .panther_about_intro_style {
       margin-top: 7rem;
       margin-bottom: 7rem; }
-      .Intro_heart_shape_about .jumbotron .panther_about_intro_style .camera_ready_style {
-        margin-top: 4rem; }
-        .Intro_heart_shape_about .jumbotron .panther_about_intro_style .camera_ready_style .about_cta_style {
-          border-radius: 0px;
-          margin-top: 1rem; }
-          .Intro_heart_shape_about .jumbotron .panther_about_intro_style .camera_ready_style .about_cta_style .about_cta_style_btn {
-            border-radius: 0px; }
+      .Intro_heart_shape_about .jumbotron .panther_about_intro_style .about_cta_style {
+        border-radius: 0px;
+        margin-top: 1rem; }
+        .Intro_heart_shape_about .jumbotron .panther_about_intro_style .about_cta_style .about_cta_style_btn {
+          border-radius: 0px; }
   .Intro_heart_shape_about .profile-img {
     width: 20rem;
     z-index: 9000;

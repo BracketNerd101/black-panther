@@ -78,6 +78,10 @@
       font-family: 'Josefin Slab', serif !important;
 
     }
+    .camera_ready_style {
+
+      margin-top: 8rem;
+    }
 
     .about_intro_panther {
 
@@ -135,12 +139,10 @@
   .parallax {
     /* The image used */
     background-image: url(../img/photo_arthur.jpg);
-
     /* Set a specific height */
     min-height: 50vh;
-    height: 50rem;
+    height: 37rem;
     width: 100%;
-
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -168,11 +170,6 @@
       margin-top: 7rem;
       margin-bottom: 7rem;
 
-      .camera_ready_style {
-
-        margin-top: 4rem;
-
-
       .about_cta_style {
         border-radius: 0px;
         margin-top: 1rem;
@@ -180,7 +177,7 @@
         .about_cta_style_btn {
 
           border-radius: 0px;
-         }
+
         }
       }
     }
