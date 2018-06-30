@@ -12,20 +12,6 @@
   .intro_panther .home_intro_name {
     font-family: 'Josefin Slab', serif !important; }
 
-.parallax {
-  perspective: 1px;
-  height: 70vh; }
-  .parallax .parallax__layer {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0; }
-  .parallax .parallax__layer--base {
-    transform: translateZ(0); }
-  .parallax .parallax__layer--back {
-    transform: translateZ(-1px); }
-
 .P_height {
   height: inherit; }
 
@@ -81,5 +67,43 @@
   color: #ffffff; }
   .btn-back-style .btn-back-style:hover {
     color: #333; }
+
+.Intro_heart_shape_about {
+  background-color: #ffffff !important;
+  height: inherit; }
+  .Intro_heart_shape_about .parallax {
+    /* The image used */
+    background-image: url(../img/photo_arthur.jpg);
+    /* Set a specific height */
+    min-height: 50vh;
+    height: 50rem;
+    width: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .Intro_heart_shape_about .jumbotron {
+    background-color: #ffffff !important;
+    height: inherit; }
+    .Intro_heart_shape_about .jumbotron .home_intro_name {
+      font-family: 'Josefin Slab', serif !important; }
+    .Intro_heart_shape_about .jumbotron .about_intro_panther {
+      margin-top: 4rem; }
+    .Intro_heart_shape_about .jumbotron .panther_about_intro_style {
+      margin-top: 7rem;
+      margin-bottom: 7rem; }
+      .Intro_heart_shape_about .jumbotron .panther_about_intro_style .camera_ready_style {
+        margin-top: 4rem; }
+        .Intro_heart_shape_about .jumbotron .panther_about_intro_style .camera_ready_style .about_cta_style {
+          border-radius: 0px;
+          margin-top: 1rem; }
+          .Intro_heart_shape_about .jumbotron .panther_about_intro_style .camera_ready_style .about_cta_style .about_cta_style_btn {
+            border-radius: 0px; }
+  .Intro_heart_shape_about .profile-img {
+    width: 20rem;
+    z-index: 9000;
+    border-bottom: 8px solid #333;
+    z-index: 40000; }
 
 /*# sourceMappingURL=homepage_style.css.map */

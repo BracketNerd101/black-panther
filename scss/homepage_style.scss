@@ -24,28 +24,6 @@
   }
 }
 
-.parallax {
-  perspective: 1px;
-  height: 70vh;
-
-  .parallax__layer {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-
-}
-
-.parallax__layer--base {
-  transform: translateZ(0);
-}
-
-.parallax__layer--back {
-  transform: translateZ(-1px);
- }
-}
-
 .P_height {
 
   height: inherit;
@@ -147,4 +125,74 @@
     color: #333;
 
   }
+}
+
+.Intro_heart_shape_about {
+
+  background-color: #ffffff !important;
+  height: inherit;
+
+  .parallax {
+    /* The image used */
+    background-image: url(../img/photo_arthur.jpg);
+
+    /* Set a specific height */
+    min-height: 50vh;
+    height: 50rem;
+    width: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+  .jumbotron {
+
+    background-color: #ffffff !important;
+    height: inherit;
+
+    .home_intro_name {
+      font-family: 'Josefin Slab', serif !important;
+
+    }
+
+    .about_intro_panther {
+
+      margin-top: 4rem;
+    }
+
+    .panther_about_intro_style {
+
+      margin-top: 7rem;
+      margin-bottom: 7rem;
+
+      .camera_ready_style {
+
+        margin-top: 4rem;
+
+
+      .about_cta_style {
+        border-radius: 0px;
+        margin-top: 1rem;
+
+        .about_cta_style_btn {
+
+          border-radius: 0px;
+         }
+        }
+      }
+    }
+  }
+
+  .profile-img {
+
+    width: 20rem;
+    z-index: 9000;
+    border-bottom: 8px solid #333;
+    z-index: 40000;
+
+
+ }
 }
