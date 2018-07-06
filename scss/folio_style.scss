@@ -8,11 +8,22 @@ $photography-bg: #ffffff ;
 $about-bg: #ffffff ;
 $run-bg: #ffffff ;
 
+// html{
+//   position: relative;
+//   min-height: 100%;
+// }
+
 
 body {
 
   background-color: $florida_blue_bg ;
-}
+  font-size: 1rem;
+  background-color: #ffffff;
+  position: relative;
+   margin-bottom: 160px; }
+
+
+
 
 .folio_intro_style {
   height: inherit;
@@ -34,7 +45,7 @@ body {
     .title_proj_style {
       text-align: left;
       margin-top: 4rem;
-      padding-left: 2rem;
+      // padding-left: 2rem;
     }
   }
 
@@ -43,8 +54,6 @@ body {
   margin-bottom: 5rem;
   margin-top: 5rem;
   padding-bottom: 6rem;
-  padding-right: none;
-  padding-left: none;
 
   .container-fluid {
 
@@ -60,6 +69,7 @@ body {
   background-color: transparent;
   margin-top: 1rem;
 
+
   .folio_proj_margin {
 
     margin-top: 1rem;
@@ -74,7 +84,7 @@ body {
     .title_proj_style {
       text-align: left;
       margin-top: 2rem;
-      padding-left: 2rem;
+      // margin-left: 2rem;
       font-family: 'Josefin Sans', sans-serif;
     }
   }
@@ -100,20 +110,19 @@ body {
 .folio_section_highlight {
 
   margin-top: 3rem;
-  width: 100%;
 
   img {
 
     display: inline-block;
     vertical-align: middle;
-    width: 100vw;
+    min-width: 100%;
     height: auto;
   }
 
   .project-paws-piece-mb {
       // background-image: url(../img/MWE-FL-BLUE-Perspective-3.jpg);
       background-size: cover;
-      width: 100%;
+      // width: 100vw;
       margin-bottom: 4rem !important;
     }
 }

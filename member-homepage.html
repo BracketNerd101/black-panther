@@ -14,8 +14,8 @@
       <!-- <link rel="stylesheet" href="css/style.css"> -->
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-      <link rel="stylesheet" type="text/css" href="css/off-canvas.css">
-      <link rel="stylesheet" type="text/css" href="css/full-screen-menu.css">
+      <!-- <link rel="stylesheet" type="text/css" href="css/off-canvas.css">
+      <link rel="stylesheet" type="text/css" href="css/full-screen-menu.css"> -->
       <!-- font awesome  -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
       <!--  -->
@@ -32,7 +32,7 @@
       <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:400i" rel="stylesheet">
       <!-- Custom CSS Below  -->
-      <!-- <link rel="stylesheet" type="text/css" href="css/portfolio-style.css"> -->
+      <link rel="stylesheet" type="text/css" href="css/portfolio-style.css">
       <link rel="stylesheet" type="text/css" href="css/project.css">
       <link rel="stylesheet" type="text/css" href="css/homepage_style.css">
       <link rel="stylesheet" type="text/css" href="css/folio_style.css">
@@ -49,16 +49,6 @@
       </script>
    </head>
    <body>
-      <div id="myNav" class="overlay bg-info">
-         <a href="javascript:void(0)" class="closebtn close-btn-placement" onclick="closeNav()">&times;</a>
-         <div class="overlay-content">
-            <!-- <a href="RESUME_ace.pdf" target="_blank">Résumé</a> -->
-            <a class="nav-link text-dark" href="RESUME_ace.pdf" target="_blank" >Résumé</a>
-            <a href="about.html">About</a>
-            <a href="index.html">Portfolio</a>
-            <a href="mailto:arthur.edwards321@gmail.com">Email Me</a>
-         </div>
-      </div>
          <header class="cd-auto-hide-header">
             <nav class="nav navbar navbar-light justify-content-between nav_shadow_style shadow_style">
               <button class="text-success logo-style border border-white" type="button" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -128,7 +118,7 @@
 
          <Section class="folio_intro_style">
            <div class="row jumbotron">
-              <div class="row container col-sm-12 col-md-6 col-lg-6 folio_proj_margin">
+              <div class="row col-sm-12 col-md-6 col-lg-6 folio_proj_margin">
                 <div class="col-lg-3">Work</div>
                 <div class="col-lg-3"> <hr class="bg-light"></div>
                 <div class="col-lg-3">Web Design</div>
@@ -174,31 +164,33 @@
 
       <!-- jumbotron container -------------------------------------------------------->
       <!-- <nav class="navbar navbar-light bg-dark"> -->
-      <div class="col-md-12 col-lg-12 footer-styles">
-         <ul class="nav justify-content-center">
-            <li class="nav-item">
-               <a class="nav-link text-dark" href="RESUME_ace.pdf" target="_blank">Résumé</a>
-            </li><!-- ------------>
-            <li class="nav-item">
-               <a class="nav-link text-dark" href="https://www.linkedin.com/in/arthur-edwards-40170919/" target="_blank">LinkedIn</a>
-            </li><!-- ------------>
-            <li class="nav-item">
-               <a class="nav-link text-dark" href="about.html">About</a>
-            </li><!-- ------------>
-            <li class="nav-item">
-               <a class="nav-link text-dark" href="mailto:arthur.edwards321@gmail.com">Email Me</a>
-            </li><!-- ------------>
-            <li class="nav-item">
-               <a class="nav-link text-dark" href="index.html">Portfolio</a>
-            </li><!-- ------------>
-         </ul>
-         <br><br>
-         <div class="container-fluid">
-            <div class="row col-sm-12 col-md-12 col-lg-12">
-               <h6 class="text-dark text-center">Copyright 2017 Arthur Charles Edwards</h6>
-            </div>
-         </div>
-      </div>
+      <Section class="footer-container">
+        <div class="col-sm-12 col-md-12 col-lg-12 footer-styles">
+           <ul class="nav justify-content-center">
+              <li class="nav-item">
+                 <a class="nav-link text-dark" href="RESUME_ace.pdf" target="_blank">Résumé</a>
+              </li><!-- ------------>
+              <li class="nav-item">
+                 <a class="nav-link text-dark" href="https://www.linkedin.com/in/arthur-edwards-40170919/" target="_blank">LinkedIn</a>
+              </li><!-- ------------>
+              <li class="nav-item">
+                 <a class="nav-link text-dark" href="about.html">About</a>
+              </li><!-- ------------>
+              <li class="nav-item">
+                 <a class="nav-link text-dark" href="mailto:arthur.edwards321@gmail.com">Email Me</a>
+              </li><!-- ------------>
+              <li class="nav-item">
+                 <a class="nav-link text-dark" href="index.html">Portfolio</a>
+              </li><!-- ------------>
+           </ul>
+           <br><br>
+           <div class="">
+              <div class="row col-sm-12 col-md-12 col-lg-12">
+                 <h6 class="text-dark text-center">Copyright 2017 Arthur Charles Edwards</h6>
+              </div>
+           </div>
+        </div>
+      </Section>
       <!-- </nav> -->
       <!-- jQuery first, then Popper.js, then Bootstrap JS -->
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
