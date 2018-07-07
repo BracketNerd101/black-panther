@@ -6,8 +6,6 @@ $florida-blue-bg: #ffffff ;
 $florida-blue-bg: #ffffff ;
 
 html{
-  position: relative;
-  min-height: 100%;
 }
 
 body {
@@ -16,8 +14,6 @@ body {
    background-color: #ffffff;
    min-height: 100%;
    position: relative;
-  min-height: 100%;
-  margin-bottom: 160px;
 }
 
 /*--------------------------------
@@ -303,11 +299,12 @@ font-family: 'Josefin Slab', serif;
 .footer-container {
 
   width: 100vw;
+  height: inherit;
+  margin-top: auto;
 
   .footer-styles {
 
     padding-top: 5rem;
-    padding-bottom: 2rem;
     background-color: #FFFFFF !important;
     border: 1px solid #d2d2d2;
     font-size: 1.1rem;
@@ -324,12 +321,4 @@ font-family: 'Josefin Slab', serif;
     background-color: #FFFFFF !important;
     border: 1px solid #d2d2d2;
     font-size: 1.1rem;
-   }
-
-.footer-styles {
-  padding-top: 5rem;
-  // padding-bottom: 2rem;
-  background-color: #FFFFFF !important;
-  border: 1px solid #d2d2d2;
-  font-size: 1.1rem;
    }

@@ -1,14 +1,8 @@
-html {
-  position: relative;
-  min-height: 100%; }
-
 body {
   font-size: 1rem;
   background-color: #ffffff;
   min-height: 100%;
-  position: relative;
-  min-height: 100%;
-  margin-bottom: 160px; }
+  position: relative; }
 
 /*--------------------------------
 -----------------------
@@ -201,10 +195,11 @@ a .thumbnail-click-style {
   font-family: 'Josefin Slab', serif; }
 
 .footer-container {
-  width: 100vw; }
+  width: 100vw;
+  height: inherit;
+  margin-top: auto; }
   .footer-container .footer-styles {
     padding-top: 5rem;
-    padding-bottom: 2rem;
     background-color: #FFFFFF !important;
     border: 1px solid #d2d2d2;
     font-size: 1.1rem;
@@ -218,12 +213,5 @@ a .thumbnail-click-style {
   background-color: #FFFFFF !important;
   border: 1px solid #d2d2d2;
   font-size: 1.1rem; }
-
-.footer-styles {
-  padding-top: 5rem;
-  background-color: #FFFFFF !important;
-  border: 1px solid #d2d2d2;
-  font-size: 1.1rem;
-  width: 100%;}
 
 /*# sourceMappingURL=project.css.map */
