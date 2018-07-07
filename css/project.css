@@ -1,7 +1,14 @@
+html {
+  position: relative;
+  min-height: 100%; }
+
 body {
   font-size: 1rem;
   background-color: #ffffff;
-  min-height: 1200px; }
+  min-height: 100%;
+  position: relative;
+  min-height: 100%;
+  margin-bottom: 160px; }
 
 /*--------------------------------
 -----------------------
@@ -180,9 +187,6 @@ a .thumbnail-click-style {
   width: 100%; }
 
 /*------------End of  row css------------*/
-.footer-width-style {
-  width: 100%; }
-
 .small-profile {
   background-image: url(../img/profile_pic_2018.jpg);
   background-size: cover;
@@ -196,9 +200,27 @@ a .thumbnail-click-style {
 .title-about-me {
   font-family: 'Josefin Slab', serif; }
 
+.footer-container {
+  width: 100vw; }
+  .footer-container .footer-styles {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    background-color: #FFFFFF !important;
+    border: 1px solid #d2d2d2;
+    font-size: 1.1rem;
+    width: 100vw; }
+
+.footer-container {
+  min-width: 100vw; }
+
+.footer-container .footer-styles {
+  padding-top: 5rem;
+  background-color: #FFFFFF !important;
+  border: 1px solid #d2d2d2;
+  font-size: 1.1rem; }
+
 .footer-styles {
   padding-top: 5rem;
-  padding-bottom: 2rem;
   background-color: #FFFFFF !important;
   border: 1px solid #d2d2d2;
   font-size: 1.1rem;
