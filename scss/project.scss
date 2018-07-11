@@ -13,7 +13,7 @@ body {
    font-size: 1rem;
    background-color: #ffffff;
    min-height: 100%;
-   position: relative;
+   // position: relative;
 }
 
 /*--------------------------------
@@ -65,7 +65,6 @@ font-family: 'Josefin Slab', serif;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 2.1rem;
   color: #ffffff;
-  text-decoration: none !important;
 
 }
 
@@ -321,17 +320,17 @@ font-family: 'Josefin Slab', serif;
     background-color: #FFFFFF !important;
     border: 1px solid #d2d2d2;
     font-size: 1.1rem;
-    width: 100vw;
+    // width: 100vw;
   }
 
 }
 
-.footer-container {
-  min-width: 100vw; }
-  .footer-container .footer-styles {
-    padding-top: 5rem;
-    // padding-bottom: 2rem;
-    background-color: #FFFFFF !important;
-    border: 1px solid #d2d2d2;
-    font-size: 1.1rem;
-   }
+// .footer-container {
+//   min-width: 100vw; }
+//   .footer-container .footer-styles {
+//     padding-top: 5rem;
+//     // padding-bottom: 2rem;
+//     background-color: #FFFFFF !important;
+//     border: 1px solid #d2d2d2;
+//     font-size: 1.1rem;
+//    }
