@@ -1,8 +1,7 @@
 body {
   font-size: 1rem;
   background-color: #ffffff;
-  min-height: 100%;
-  position: relative; }
+  min-height: 100%; }
 
 /*--------------------------------
 -----------------------
@@ -40,8 +39,7 @@ font-family: 'Josefin Slab', serif;
 .logo-style {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 2.1rem;
-  color: #ffffff;
-  text-decoration: none !important; }
+  color: #ffffff; }
 
 .menu-style {
   font-family: 'Nunito', sans-serif;
@@ -203,16 +201,6 @@ a .thumbnail-click-style {
     padding-top: 5rem;
     background-color: #FFFFFF !important;
     border: 1px solid #d2d2d2;
-    font-size: 1.1rem;
-    width: 100vw; }
-
-.footer-container {
-  min-width: 100vw; }
-
-.footer-container .footer-styles {
-  padding-top: 5rem;
-  background-color: #FFFFFF !important;
-  border: 1px solid #d2d2d2;
-  font-size: 1.1rem; }
+    font-size: 1.1rem; }
 
 /*# sourceMappingURL=project.css.map */
