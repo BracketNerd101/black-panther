@@ -14,8 +14,7 @@ body {
   background-color: $florida_blue_bg ;
   font-size: 1rem;
   background-color: #ffffff;
-  position: relative;
-   margin-bottom: 160px; }
+   }
 
 
 
@@ -38,7 +37,7 @@ body {
 
 
     .title_proj_style {
-      text-align: left;
+      // text-align: left;
       margin-top: 4rem;
       // padding-left: 2rem;
     }
@@ -110,14 +109,14 @@ body {
 
     display: inline-block;
     vertical-align: middle;
-    min-width: 100vw;
+    min-width: 100%;
     height: auto;
   }
 
   .project-paws-piece-mb {
       // background-image: url(../img/MWE-FL-BLUE-Perspective-3.jpg);
-      background-size: cover;
-      // width: 100vw;
+      // background-size: cover;
+      // // width: 100vw;
       margin-bottom: 4rem !important;
     }
 }

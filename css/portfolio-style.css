@@ -254,7 +254,7 @@ background-image: url(../img/bank_macbook_air.jpg);
 /*------------End of  row css------------*/
 .footer-width-style {
 
-    width: 100%;
+    /* width: 100%; */
 }
 
 .small-profile {
@@ -285,12 +285,4 @@ background-image: url(../img/bank_macbook_air.jpg);
 
 font-family: 'Josefin Slab', serif;
 
-}
-
-.footer-styles {
-
-  padding-top: 6rem;
-  padding-bottom: 1rem;
-  background-color: #343a40 !important;
-  font-size: 2rem;
 }

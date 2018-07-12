@@ -15,7 +15,8 @@ body {
       text-align: left;
       margin-top: 4rem;
       font-family: 'Josefin Sans', sans-serif;
-      padding-left: 2rem; }
+      /* padding-left: 2rem;  */
+    }
   .folio_intro_style .folio_project_intro {
     margin-bottom: 5rem;
     margin-top: 5rem;
@@ -28,7 +29,8 @@ body {
 
 .folio_section_highlight {
   margin-top: 3rem;
-  width: 100%; }
+  /* width: 100%; */
+}
   .folio_section_highlight img {
     display: inline-block;
     vertical-align: middle;
@@ -36,5 +38,5 @@ body {
     height: auto; }
   .folio_section_highlight .project-paws-piece-mb {
     background-size: cover;
-    width: 100%;
+    width: 100vw;
     margin-bottom: 4rem !important; }
