@@ -54,6 +54,8 @@
       .Intro_heart_shape .jumbotron .panther_about_intro_style .about_cta_style {
         border-radius: 0px;
         margin-top: 1rem; }
+        .Intro_heart_shape .jumbotron .panther_about_intro_style .about_cta_style .social_links_about {
+          margin-top: 4rem !important; }
         .Intro_heart_shape .jumbotron .panther_about_intro_style .about_cta_style .about_cta_style_btn {
           border-radius: 0px; }
   .Intro_heart_shape .profile-img {
@@ -61,6 +63,11 @@
     z-index: 9000;
     border-bottom: 8px solid #333;
     z-index: 40000; }
+
+.Intro_heart_shape .social_links_about {
+  margin-top: 2rem !important; }
+.Intro_heart_shape .icon-size-about {
+  font-size: 2.3rem; }
 
 .back-option {
   margin-bottom: 3rem; }

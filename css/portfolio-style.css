@@ -102,14 +102,6 @@ padding-bottom: 1rem;
 width: inherit;
 max-width: auto;
 
-
-/*background: #32cd32;
-background: -webkit-linear-gradient(top,#32cd32,#84bd00); Safari 5.1-6
-background: -o-linear-gradient(top,#32cd32,#84bd00); Opera 11.1-12
-background: -moz-linear-gradient(top,#32cd32,#84bd00);
-
-background: linear-gradient(to bottom, #32cd32, #84bd00); Standard
-*/
 }
 
 .about-homepage-style {
@@ -172,7 +164,7 @@ background-image: url(../img/bank_macbook_air.jpg);
 
 }
 .portfolio-style-02 {
-  background-image: url(../img/chair_mobile4krun.jpg);
+  background-image: url(../img/run_k_mobile_black.png);
   background-size: cover;
   /*background-image: url(../img/iphone5-4krun.jpg);
   background-size: cover;*/
