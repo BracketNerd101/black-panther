@@ -88,8 +88,8 @@ body {
   margin-bottom: 5rem;
   margin-top: 5rem;
   padding-bottom: 6rem;
-  padding-right: none;
-  padding-left: none;
+  // padding-right: none;
+  // padding-left: none;
 
   .container-fluid {
 
@@ -100,18 +100,41 @@ body {
  }
 }
 
-
 .folio_section_highlight {
 
   margin-top: 3rem;
+
+.row {
+
+  width: 90vw;
+  margin-left: 0;
+  margin-right: 0;
+}
 
   img {
 
     display: inline-block;
     vertical-align: middle;
-    min-width: 100%;
+    max-width: 100vw;
     height: auto;
   }
+
+}
+
+
+
+
+.folio_section_highlight {
+
+  margin-top: 3rem;
+
+  // img {
+  //
+  //   display: inline-block;
+  //   vertical-align: middle;
+  //   min-width: 100%;
+  //   height: auto;
+  // }
 
   .project-paws-piece-mb {
       // background-image: url(../img/MWE-FL-BLUE-Perspective-3.jpg);
