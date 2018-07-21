@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IAAK;EACH,UAAU,EAAE,OAAO;;AAGrB,IAAK;EACH,UAAU,EAAE,MAAM;;AAOhB,yBAAI;EAEF,OAAO,EAAE,YAAY;EACrB,cAAc,EAAE,MAAM;EACtB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,IAAI",
+"sources": ["../scss/display_folio.scss"],
+"names": [],
+"file": "display_folio.css"
+}

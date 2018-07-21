@@ -1,0 +1,13 @@
+body {
+  background: #ffffff; }
+
+.wow {
+  visibility: hidden; }
+
+.artwork .display_art img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100vw;
+  height: auto; }
+
+/*# sourceMappingURL=display_folio.css.map */
